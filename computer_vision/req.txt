@@ -1,7 +1,7 @@
-tensorflow
-tf-keras
+tensorflow-cpu==2.11.0 
+keras==2.11.0
 opencv-python
 matplotlib
-numpy
+numpy==1.24.3
 pandas
 retina-face
