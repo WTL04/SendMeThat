@@ -6,3 +6,6 @@ numpy==1.24.3
 pandas
 retina-face
 facenet-pytorch
+mtcnn-tflite
+onnx
+onnx-tf
