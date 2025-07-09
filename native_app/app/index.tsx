@@ -1,15 +1,11 @@
 import { Text, View } from "react-native";
+import { SafeAreaView } from 'react-native';
+import ContactsScreen from "./ContactsScreen";
 
 export default function Index() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Hello World!</Text>
-    </View>
+    <SafeAreaView style={{ flex: 1 }}>
+      <ContactsScreen />
+    </SafeAreaView>
   );
 }
