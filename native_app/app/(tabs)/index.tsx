@@ -2,7 +2,7 @@
 
 import { Text, useColorScheme, View, Button, SafeAreaView, StyleSheet } from "react-native";
 import { useRouter } from 'expo-router'
-import CustomHeader from "./components/CustomHeader";
+import CustomHeader from "../components/CustomHeader";
 
 export default function App() {
   // enabling route navigation
